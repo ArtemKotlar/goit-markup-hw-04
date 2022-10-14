@@ -119,6 +119,32 @@ body {
     color: var(--accnent-color);
 }
     
+
+
+.icon-envelope::before {
+    display: inline-flex;
+    content: " ";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/icons.svg/envelope.svg);
+}
+
+.icon-smartphone::before {
+    display: inline-flex;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../images/icons.svg/smartphone.svg);
+}
+
 .footer {
     background: #2F303A;
     padding-top: 60px;
