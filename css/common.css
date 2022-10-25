@@ -28,6 +28,10 @@ body {
     list-style: none;
 }
 
+.page-header {
+    border: 1px solid #ECECEC;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -136,32 +140,24 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
-.address-text {
-    font-style: normal;
-    margin-top: 20px;
-    margin-bottom: 9px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--primary-white-color);
-    text-decoration: none;
+.address.maps {
+    color: #FFFFFF;
 }
 
-.address.info {
-    margin-top: 0;
-    margin-bottom: 9px;
+.info-maps {
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 9px;
 }
 
 .address:hover,
 .address:focus {
-    color: var(--accnent-color);
-}
-    
-.address-text:hover,
-.address-text:focus {
     color: var(--accnent-color);
 }
